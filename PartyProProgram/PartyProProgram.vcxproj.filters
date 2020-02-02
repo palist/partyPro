@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="colorDlg">
+      <UniqueIdentifier>{58d490c7-7baf-431a-bc47-4f6a32a215f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\PartyProProgram.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PartyProProgram.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\tree_image.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="colorDlg\CCHSB.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\LightLib\LightLib.sln" />
+    <None Include="ctrl\CCHSB.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PartyProProgram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyProProgramDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Port.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="supergridctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zigbee_device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="drawDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="colorDlg\Common.h">
+      <Filter>colorDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="colorDlg\DIB.h">
+      <Filter>colorDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="colorDlg\mouse_fun.h">
+      <Filter>colorDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddDeleteLight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddLightParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectLightGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPickerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PartyProProgram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyProProgramDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Port.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="supergridctrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="drawDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="colorDlg\Common.cpp">
+      <Filter>colorDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="colorDlg\DIB.cpp">
+      <Filter>colorDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="colorDlg\mouse_fun.cpp">
+      <Filter>colorDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddDeleteLight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddLightParam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectLightGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPickerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PartyProProgram.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
